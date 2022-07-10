@@ -1,0 +1,4 @@
+#cloud-config \n
+write_files:
+  - content: <html><body><img src='https://storage.yandexcloud.net/rdegtyarev-netology-bucket/smile.png'></body></html>
+    path: /var/www/html/index.html
